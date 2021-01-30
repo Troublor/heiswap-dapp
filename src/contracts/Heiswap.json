@@ -22850,7 +22850,30 @@
       "transactionHash": "0x129c32e57ace5fd269c98df890ddcce568a92be8b15643717a0b8be02cfa3182"
     },
     "2020": {
-      "events": {},
+      "events": {
+        "0x73a19dd210f1a7f902193214c0ee91dd35ee5b4d920cba8d519eca65a7b488ca": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "etherAmount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "idx",
+              "type": "uint256"
+            }
+          ],
+          "name": "Deposited",
+          "type": "event"
+        }
+      },
       "links": {
         "LSAG": "0x8716bb7AD122D6fe44a64a57503ff9bf8427765e",
         "AltBn128": "0xa5492f0f46914ed52224Eac463e8C02F1DEc89b1"
@@ -22859,8 +22882,9 @@
       "transactionHash": "0xc24e4974b785d1f8d457d9d8fab4e067a747b9610d0de8fd143b784ed422480b"
     }
   },
-  "schemaVersion": "3.0.11",
-  "updatedAt": "2020-12-04T13:21:28.134Z",
+  "schemaVersion": "3.3.3",
+  "updatedAt": "2021-01-30T14:18:33.360Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },

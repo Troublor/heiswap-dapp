@@ -24,6 +24,11 @@
     "test": "(ganache-cli -k=petersburg --quiet &) && truffle test && react-scripts test",
     "eject": "react-scripts eject"
   },
+  "babel": {
+    "plugins": [
+      "istanbul"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "standard",
@@ -54,6 +59,7 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-istanbul": "^6.0.0",
     "babel-preset-flow": "^6.23.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-config-standard-react": "^7.0.2",
